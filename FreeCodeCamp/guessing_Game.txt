@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int secretNum = 5;
+    int guess;
+    int guessCount = 0;
+    int guessLimit = 3;
+    int outOfGuess = 0;
+    while(guess != secretNum && outOfGuess == 0){
+        if (guessCount < guessLimit) {
+            printf("Enter a number: ");
+            scanf("%d",&guess);
+            guessCount++;
+        } else {
+            outOfGuess = 1;
+        }
+    }
+    if(outOfGuess == 1){
+        printf("Out of guesses!");
+    } else {
+            printf("You win!");
+    }
+}

@@ -1,0 +1,3 @@
+std name: Nuh
+std age: 18
+std perc: 95.400002

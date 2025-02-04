@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    /*
+    This 
+    is a 
+    multiline 
+    comment.
+    */
+    
+    // This is a single line comment.
+    printf("Comments are fun to use.");
+    return 0;
+}

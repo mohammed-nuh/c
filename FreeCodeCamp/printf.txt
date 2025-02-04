@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int class1 = 12;
+    char board[] = "CBSE";
+    double decimalNum = 95.2;
+    char grade = 'A';
+    printf("I am Nuh\n");
+    printf("My percentage in %s grade %d is %f% \n",board,class1,decimalNum);
+    printf("My Grade\nis \"%c\"",grade);
+    return 0;
+}

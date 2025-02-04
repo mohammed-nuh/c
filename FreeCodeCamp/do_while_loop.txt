@@ -1,0 +1,10 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int num = 6;
+    do {
+        printf("%d\n",num);
+        num++;
+    } while(num <= 5);
+}

@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct Student{
+    char name[50];
+    char stream[50]; 
+    int age;
+    double perc;
+};
+int main() {
+    struct Student std1;
+    strcpy(std1.name,"Nuh");
+    strcpy(std1.stream,"Science");
+    std1.age = 18;
+    std1.perc = 95.6;
+    
+    struct Student std2;
+    strcpy( std2.name,"Haseeb");
+    strcpy( std2.stream,"Commerce");
+    std2.age = 19;
+    std2.perc = 92.4;
+    
+    printf("%d",std2.age);
+}

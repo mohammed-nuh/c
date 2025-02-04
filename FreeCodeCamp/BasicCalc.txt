@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    double num1;
+    double num2;
+    printf("BASIC CALC FOR ADDING 2 NUMBERS\n");
+    printf("Enter first number: ");
+    scanf("%lf", &num1);
+    printf("Enter second number: ");
+    scanf("%lf",&num2);
+    printf("Sum: %f",num1+num2);
+}
