@@ -2,6 +2,7 @@
 
 // function declaration or prototype
 void greet(char name[]);
+int square(int num);
 int cube(int num);
 
 int main()
@@ -18,6 +19,11 @@ int main()
 void greet(char name[])
 {
     printf("Hello, %s!\n", name);
+}
+
+int square(int num)
+{
+    return num * num;
 }
 
 int cube(int num)

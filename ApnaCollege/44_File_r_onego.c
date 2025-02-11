@@ -12,11 +12,21 @@ int main()
         printf("File doesnt exist!\n");
     }
 
-    ch = fgetc(fptr);
-    while (ch != EOF)
+    // ch = fgetc(fptr);
+    // while (ch != EOF)
+    // {
+    //     printf("%c", ch);
+    //     ch = fgetc(fptr);
+    // }
+
+    // while ((ch = fgetc(fptr)) != EOF)
+    // {
+    //     printf("%c", ch);
+    // }
+
+    while (fscanf(fptr, "%c", &ch) != EOF)
     {
         printf("%c", ch);
-        ch = fgetc(fptr);
     }
 
     fclose(fptr);

@@ -4,7 +4,13 @@ typedef struct vector
 {
     int x;
     int y;
-} vect;
+} vect; // alias
+
+struct point
+{
+    int x;
+    int y;
+} pt; // variable
 
 void calcSum(vect v1, vect v2, vect *sum);
 
@@ -17,6 +23,12 @@ int main()
     calcSum(v1, v2, &sum);
     printf("%d\n", sum.x);
     printf("%d", sum.y);
+
+    pt.x = -5;
+    pt.y = 8;
+
+    printf("\n\n%d", pt.x);
+    printf("\n%d", pt.y);
 
     return 0;
 }

@@ -8,6 +8,13 @@ int main()
     ptr = (int *)malloc(5 * sizeof(int)); // not contiguous
 
     printf("%p\n", ptr);
+
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("%u\t", ptr);
+    //     ptr++;
+    // }
+
     for (int i = 0; i < 5; i++)
     {
         ptr[i] = i + 10;

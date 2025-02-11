@@ -27,6 +27,15 @@ int sum(int n)
     }
 }
 
+/*
+sum(4) + 5
+sum(3) + 4 + 5
+sum(2) + 3 + 4 + 5
+sum(1) + 2 + 3 + 4 + 5
+sum(0) + 1 + 2 + 3 + 4 + 5
+0 + 1 + 2 + 3 + 4 + 5
+*/
+
 int factorial(int n)
 {
     if (n == 0 || n == 1)
@@ -40,12 +49,3 @@ int factorial(int n)
         return factorialN;
     }
 }
-
-/*
-sum(4) + 5
-sum(3) + 4 + 5
-sum(2) + 3 + 4 + 5
-sum(1) + 2 + 3 + 4 + 5
-sum(0) + 1 + 2 + 3 + 4 + 5
-0 + 1 + 2 + 3 + 4 + 5
-*/

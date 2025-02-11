@@ -27,11 +27,11 @@ int main()
 
 void fib_series(int fib[], int size)
 {
-    if (size == 0)
+    if (size == 1)
     {
         fib[0] = 0;
     }
-    else if (size == 1)
+    else if (size == 2)
     {
         fib[0] = 0;
         fib[1] = 1;
@@ -58,11 +58,11 @@ void print_fib_series(int fib[], int size)
 
 int fib_nth(int n)
 {
-    if (n == 0)
+    if (n == 1)
     {
         return 0;
     }
-    else if (n == 1)
+    else if (n == 2)
     {
         return 1;
     }

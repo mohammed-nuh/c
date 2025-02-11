@@ -12,7 +12,7 @@ int main()
 
     printf("Difference: %u\n", agePtr - _agePtr);
     _agePtr = &age;
-    printf("Comparision: %u", agePtr = _agePtr);
+    printf("Comparision: %u", agePtr > _agePtr);
 
     return 0;
 }
