@@ -7,5 +7,6 @@ int main(int argc, char *argv[])
     { // Print all args
         printf("argv[%d] = %s\n", i, argv[i]);
     }
+    printf("hello %c", argv[2][1]);
     return 0;
 }

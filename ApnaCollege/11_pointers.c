@@ -10,8 +10,8 @@ int main()
     printf("value of &a: %p\n", &age);
     printf("value of ptr %p\n", ptr);
     printf("value of *ptr %d\n", *ptr);
-    printf("value of &ptr %d\n", &ptr);
+    printf("value of &ptr %p\n", &ptr);
     printf("value of _age %d\n", _age);
-    printf("value of &_age %d\n", &_age);
+    printf("value of &_age %p\n", &_age);
     return 0;
 }

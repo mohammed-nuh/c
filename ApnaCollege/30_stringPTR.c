@@ -8,6 +8,6 @@ int main()
     puts(canChange);
 
     char cannotChange[] = "Hello World";
-    // cannotChange = "Hello";   this wont work
+    // cannotChange = "Hello";   this wont work (compile time error)
     return 0;
 }

@@ -1,15 +1,24 @@
-void modify(union Data *d)
-{              // Passed by reference
-    d->x = 20; // Modifies original
+#include <stdio.h>
+
+union Data
+{
+    int intVal;
+    float floatVal;
+};
+
+void printUnionByReference(union Data *d)
+{
+    d->intVal = 20; // This change affects the original union
+    printf("Inside function (pass by reference): %d\n", d->intVal);
 }
 
 int main()
 {
-    union Data d;
-    d.x = 10;
+    union Data data;
+    data.intVal = 10;
 
-    modify(&d);
-    printf("Value after function call: %d\n", d.x); // Now 20
+    printUnionByReference(&data);
+    printf("Outside function: %d\n", data.intVal); // Now 20
 
     return 0;
 }

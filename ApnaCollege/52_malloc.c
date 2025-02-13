@@ -5,7 +5,7 @@ int main()
 {
     int *ptr;
 
-    ptr = (int *)malloc(5 * sizeof(int)); // not contiguous
+    ptr = (int *)malloc(5 * sizeof(int));
 
     printf("%p\n", ptr);
 

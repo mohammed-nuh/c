@@ -18,7 +18,7 @@ int main()
     puts(oldString);
 
     // 3. strcat()
-    char str1[20] = "Hello ";
+    char str1[20] = "Hello "; // should be large enough to hold the concatenated string
     char str2[] = "World";
 
     strcat(str1, str2);
@@ -28,7 +28,7 @@ int main()
     // 4. strcmp()
     char str3[] = "Apple";
     char str4[] = "Banana";
-    printf("%d", strcmp(str3, str4));
+    printf("%d", strcmp(str4, str3));
 
     return 0;
 }

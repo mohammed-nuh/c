@@ -11,8 +11,8 @@ int main()
     printf("_agePtr: %u\n", _agePtr);
 
     printf("Difference: %u\n", agePtr - _agePtr);
-    _agePtr = &age;
-    printf("Comparision: %u", agePtr > _agePtr);
+    // _agePtr = &age;
+    printf("Comparision: %u", agePtr > _agePtr); // try ==
 
     return 0;
 }

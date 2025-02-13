@@ -71,3 +71,11 @@ int fib_nth(int n)
         return fib_nth(n - 1) + fib_nth(n - 2);
     }
 }
+
+/*
+0 1 1 2 3
+fib_nth(5) => fib_nth(4) + fib_nth(3)
+fib_nth(5) => fib_nth(3) + fib_nth(2) + fib_nth(2) + fib_nth(1)
+fib_nth(5) => fib_nth(2) + fib_nth(1) + fib_nth(2) + fib_nth(2) + fib_nth(1)
+fib_nth(5) => 3
+*/

@@ -9,6 +9,6 @@ struct Example
 
 int main()
 {
-    printf("Size: %lu\n", sizeof(struct Example));
+    printf("Size: %lu\n", sizeof(struct Example)); // more of equal to sum of all members
     return 0;
 }
