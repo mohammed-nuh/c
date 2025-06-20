@@ -12,6 +12,7 @@ void Insert(int data, int n){
     struct Node* temp1 = (struct Node*)malloc(sizeof(struct Node));
     temp1->data = data;
     temp1->next = NULL;
+    
     if(n == 1){
         temp1->next = head;
         head = temp1;

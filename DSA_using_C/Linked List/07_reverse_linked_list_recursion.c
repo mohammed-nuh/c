@@ -34,6 +34,7 @@ void printLinkedList(){
         temp = temp->next;
     }
 }
+
 void reverse(struct Node* n){
     if(n->next == NULL){
         head = n;
